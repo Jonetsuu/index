@@ -1,0 +1,32 @@
+{
+  "name": "florian-dewaele.github.io",
+  "version": "1.0.0",
+  "description": "My personnal WebSite",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AntoineDewaele/florian-website.git"
+  },
+  "author": "AntoineDewaele",
+  "license": "CC-BY-4.0",
+  "bugs": {
+    "url": "https://github.com/AntoineDewaele/florian-website.git/issues"
+  },
+  "homepage": "https://github.com/AntoineDewaele/florien-website.github.io.git#readme",
+  "devDependencies": {
+    "bootstrap": "^4.3.1",
+    "bootstrap-grid": "3.0.1",
+    "bootstrap-reboot": "4.3.1",
+    "gulp": "^4.0.2",
+    "gulp-concat": "2.6.1",
+    "gulp-sass": "4.0.2"
+  },
+  "dependencies": {
+    "jquery": "^3.3.1",
+    "owl.carousel": "^2.3.4",
+    "popper.js": "1.16.0"
+  }
+}

@@ -681,3 +681,23 @@ ul.social-buttons li a {
 ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons li a:hover {
   background-color: #800020;
 }
+
+.card {
+  margin: auto;
+  border-color: #800020;
+}
+
+.card-text {
+  display: flex;
+  min-height: 170px;
+}
+
+.card-text ul {
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.card-link {
+  color: #800020;
+  font-weight: bold;
+}

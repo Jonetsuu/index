@@ -1,14 +1,11 @@
 // Core variables and mixins
 @import "base/variables.scss";
 @import "base/mixins.scss";
-
 // Global CSS
 @import "base/page.scss";
-
 // Components
 @import "components/buttons.scss";
 @import "components/navbar.scss";
-
 // Layout
 @import "layout/masthead.scss";
 @import "layout/services.scss";
@@ -40,6 +37,34 @@
   //text-align: center;
 }
 
-.card-subtitle {
+.portfolio-link {
+  max-width: 100% !important;
+  max-height: 500px;
+  overflow: hidden;
+  object-fit: cover;
+  cursor: initial !important;
+}
 
+.tarif-info {
+  color: $primary !important;
+  margin-top: 30px;
+}
+
+@media only screen and (max-width: 600px) {
+  .intro-heading {
+    font-size: 35px !important;
+  }
+
+  .btn-xl {
+    font-size: 15px;
+    padding: 15px 30px;
+  }
+
+  .card {
+    margin-bottom: 15px;
+  }
+
+  hr {
+    margin-bottom: 30px;
+  }
 }
